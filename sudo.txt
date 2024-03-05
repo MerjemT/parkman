@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Parkman</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="header">
+  <h1>PARKMAN</h1>
+  <h4>Management report</h4>
+</div>
+ 
+
+
+<div class="row">
+  <div class="column" style="background-color:#eee;">
+
+    <div class="current-status">
+    <div class="price">
+      <p>Price per hour:</p>
+      <p style="padding-left: 180px;">$2</p>
+    </div>
+      <div>
+      <p>Current occupancy:</p>
+      <div class="occupancy">
+        <!-- TODO: php & sql -->
+        <div style='background-color: yellow;'>4/10</div><div>40%</div>      </div>
+      </div>
+    
+            
+    </div>
+
+  <div class="tabela">
+      <table class="tg">
+      <thead>
+        <tr>
+          <th></th>
+          <th>Today</th>
+          <th>This month</th>
+          <th>This year</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Total cars<br></td>
+          <td>4</td>
+          <td>7</td>
+          <td>7</td>
+          <td>11</td>
+        </tr>
+        <tr>
+          <td>Average time parked</td>
+          <td>2.97 h</td>
+          <td>1.75 h</td>
+          <td>1.75 h</td>
+          <td>1.75 h</td>
+        </tr>
+        <tr>
+          <td>Average paid price</td>
+          <td>$5.95</td>
+          <td>$3.49</td>
+          <td>$3.49</td>
+          <td>$3.49</td>
+        </tr>
+      </tbody>
+      </table>
+  </div> 
+  </div>
+</div>
+
+</body>
+</html>

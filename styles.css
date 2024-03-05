@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+  /* background-color: #f1f1f1; */
+  padding: 20px;
+  text-align: center;
+  font-size: 35px;
+}
+.header h1 {
+  color: #03b9e0;
+}
+
+/* Container for flexboxes */
+.row {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  /* background-color: firebrick; */
+}
+
+.current-status {
+  display: flex;
+  flex-direction: column;
+}
+
+.current-status div{
+  display: flex;
+  font-size: large;
+  padding-left: 20px;
+}
+/* .current-status div {
+
+} */
+.occupancy {
+  display: flex;
+  margin-left: 120px;
+}
+
+.occupancy div {
+  padding: 20px;
+}
+.tabela {
+  align-self: center;
+  padding-bottom: 50px;
+}
+.tg {
+  border-collapse:collapse;border-spacing:0;
+  margin-top: 30px;
+}
+.tg td {
+  border-color:black;
+  border-style:solid;
+  border-width:1px;
+  font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;
+  padding:10px 4px;
+  word-break:normal;
+  text-align:left;
+  vertical-align:top;
+  height: 60px;
+  
+  /* display: flex; */
+  text-align: center;
+  vertical-align: center;
+}
+.tg th {
+  border-color:black;
+  border-style:solid;
+  border-width:1px;
+  font-family:Arial, sans-serif;
+  font-size:14px;
+  font-weight:normal;
+  overflow:hidden;
+  padding:10px 4px;
+  word-break:normal;
+  width: 15vw;
+  text-align: left;
+}

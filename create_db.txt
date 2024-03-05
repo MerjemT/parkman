@@ -1,0 +1,18 @@
+CREATE DATABASE parkman;
+USE parkman;
+
+CREATE TABLE IF NOT EXISTS parked(
+  id INT NOT NULL AUTO_INCREMENT,
+  licence_plate VARCHAR(15) NOT NULL,
+  entrance_time TIMESTAMP NOT NULL,
+  exit_time TIMESTAMP,
+  PRIMARY KEY (id)
+);
+
+CREATE TABLE IF NOT EXISTS constants(
+  id VARCHAR(50) NOT NULL,
+  const DOUBLE DEFAULT NULL,
+  PRIMARY KEY (id)
+);
+INSERT INTO constants VALUE ('price', 2);
+INSERT INTO constants VALUE ('spaces', 100);
